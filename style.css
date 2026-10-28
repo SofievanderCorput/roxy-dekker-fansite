@@ -1,0 +1,134 @@
+/* CSS reset, dit niet aanpassen! */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hieronder mag je eigen CSS code */
+
+body {
+    background-color: rgb(245, 168, 230);
+    color: white;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+p { 
+    color: rgb(219, 38, 222);
+    font-size: 10px;
+}
+
+#introparagraaf {
+    font-size: 36px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+h1 { 
+font-size: 110px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color:rgb(235, 79, 212);
+
+}
+
+img{ 
+    width: 50%;
+}
+
+
+
+.muziek .home-link {
+   display: inline-block;
+   background-color: white;
+   color: d63384;
+   padding: 12px 35px;
+   border-radius: 30px;
+   text-decoration: none;
+   font-size: 20px;
+   margin: 20px;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+.muziek .home-link:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+.muziek h1 {
+  font-size: 60px;
+}
+
+.muziek .spotify-nummers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.muziek .spotify-nummers iframe {
+  width: 80%;
+  max-width: 500px;
+  height: 152px;
+  border: none;
+  border-radius: 12px;
+}
+
+.muziek-knop {
+   display: inline-block;
+   background-color: white;
+   color: d63384;
+   padding: 12px 35px;
+   border-radius: 30px;
+   text-decoration: none;
+   font-size: 20px;
+   margin: 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.muziek-knop:hover {
+  background-color: #d63384;
+  color: white;
+}
+
+.muziek .muziek-header {
+  background-image: url("img/Unknown-2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+ 
+}
+
+.home-pagina .roxy-headline {
+  background-image: url("img/Unknown-2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+}
+
+#fan-knop {
+  background-color: white;
+  color: #d63384;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
